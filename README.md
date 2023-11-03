@@ -20,9 +20,6 @@ Node<br>
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -77,3 +74,8 @@ npm install
 ```
 npm start
 ```
+
+### usage
+
+visit: https//localhost:3000/ to get the home page
+and https//localhost:3000/trend to get the trend analysis
