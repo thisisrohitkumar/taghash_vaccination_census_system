@@ -77,5 +77,7 @@ npm start
 
 ### usage
 
-visit: https//localhost:3000/ to get the home page
-and https//localhost:3000/trend to get the trend analysis
+visit: https//localhost:3000/ to get the home page <br>
+and https//localhost:3000/trend to get the trend analysis<br>
+
+Locate "census.sql" file in the root folder and import that in your MYSQL.
