@@ -1,0 +1,95 @@
+.container{
+    width: 80vw;
+    height: 90vh;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: row;
+}
+
+.brandBox{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.formBox{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brandName{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.brandNameText{
+    text-align: center;
+}
+
+.brandNameImg img{
+    width: 90px;
+    height: 90px;
+}
+
+.brandName h1{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: -webkit-linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.brandName h2{
+    font-size: 42px;
+    font-weight: lighter;
+    margin-top: -20px;
+}
+.brandImg{
+    text-align: center;
+}
+
+.brandImg img{
+    width: 75%;
+}
+
+@media screen and (max-width: 786px) {
+   
+    .container{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .brandNameImg img{
+        width: 55px;
+        height: 55px;
+    }
+    .brandName{
+        margin-top: 50px;
+    }
+
+    .brandName h1{
+        font-size: 30px;
+    }
+    
+    .brandName h2{
+        font-size: 26px;
+        font-weight: lighter;
+        margin-top: -10px;
+    }
+
+    .brandImg{
+        margin-top: 80px;
+    }
+}
